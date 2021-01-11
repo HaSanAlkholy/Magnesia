@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/vendor/all.min.css" />
+    <link rel="stylesheet" href="./css/vendor/linear.css" />
+    <link rel="stylesheet" href="./css/vendor/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/vendor/aos.css" />
+    <link rel="stylesheet" href="./css/vendor/swiper-bundle.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="shortcut icon" href="./images/favicon.png" />
+    <title>Magnesia</title>
+  </head>
+
+  <body class="overflow">
+    <div class="pre-loader">
+      <div class="content">
+        <div class="lds-default">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </div>
+
+    <nav>
+      <div class="nav-bottom">
+        <div class="c2">
+          <div class="nav-logo">
+            <a href="#"><img src="./images/logo.png" alt=".." /></a>
+          </div>
+          <div class="search">
+            <div class="search-content">
+              <form action="#">
+                <input type="text" placeholder="Search..." />
+                <button class="search-btn flex-center">
+                  <span class="lnr lnr-magnifier"></span>
+                </button>
+              </form>
+            </div>
+          </div>
+          <div class="nav-icons flex-center">
+            <div class="nava-btn nav-icon" id="nava-icon">
+              <div class="ico-btn">
+                <span class="lnr lnr-menu"></span>
+              </div>
+            </div>
+            <div class="search-btn nav-icon" id="search-btn">
+              <div class="ico-btn">
+                <span class="lnr lnr-magnifier"></span>
+              </div>
+            </div>
+            <div class="top-setting nav-currency nav-icon">
+              <span class="setting-anchor">
+                <div class="ico-btn">
+                  <span>SR</span>
+                  <span class="lnr lnr-chevron-down down"></span>
+                </div>
+              </span>
+              <div class="top-dropDown">
+                <a href="./" class="drop-link fixall">Saudi riyal</a>
+                <a href="./" class="drop-link fixall">Egyptian Pound</a>
+              </div>
+            </div>
+            <div class="top-setting nav-lang nav-icon">
+              <span class="setting-anchor">
+                <div class="ico-btn">
+                  <span>EN</span>
+                  <span class="lnr lnr-chevron-down down"></span>
+                </div>
+              </span>
+              <div class="top-dropDown">
+                <a href="./index-en.html" class="drop-link fixall">English</a>
+                <a href="./index.html" class="drop-link fixall">العربية</a>
+              </div>
+            </div>
+            <div class="top-setting user nav-icon">
+              <span class="setting-anchor">
+                <div class="ico-btn">
+                  <span class="lnr lnr-user"></span>
+                  <span class="lnr lnr-chevron-down down"></span>
+                </div>
+              </span>
+              <div class="top-dropDown">
+                <a href="#" class="drop-link fixall">Sign in</a>
+                <a href="#" class="drop-link fixall">Sign up</a>
+              </div>
+            </div>
+            <div class="cart nav-icon">
+              <div class="ico-btn">
+                <span class="lnr lnr-cart"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="nava-container">
+        <div class="container">
+          <div class="c2">
+            <div class="nava" id="nava">
+              <div class="nava-content">
+                <div class="nava-head">
+                  <div class="top-setting nav-currency nav-icon">
+                    <span class="setting-anchor">
+                      <div class="ico-btn">
+                        <span>Saudi riyal</span>
+                        <span class="lnr lnr-chevron-down down"></span>
+                      </div>
+                    </span>
+                    <div class="top-dropDown">
+                      <a href="./" class="drop-link fixall">Saudi riyal</a>
+                      <a href="./" class="drop-link fixall">Egyptian Pound</a>
+                    </div>
+                  </div>
+                  <div class="top-setting nav-lang nav-icon">
+                    <span class="setting-anchor">
+                      <div class="ico-btn">
+                        <span>English</span>
+                        <span class="lnr lnr-chevron-down down"></span>
+                      </div>
+                    </span>
+                    <div class="top-dropDown">
+                      <a href="./index-en.html" class="drop-link fixall"
+                        >English</a
+                      >
+                      <a href="./index.html" class="drop-link fixall"
+                        >العربية</a
+                      >
+                    </div>
+                  </div>
+                  <div class="nava-close" id="close-nava">
+                    <span class="lnr lnr-cross"></span>
+                  </div>
+                </div>
+                <ul>
+                  <li class="sm-link"><a href="#"> Home</a></li>
+                  <li class="top-setting sm-slide slide sm-link">
+                    <span class="setting-anchor drop">
+                      Account <span class="lnr lnr-chevron-down down"></span
+                    ></span>
+                    <div class="top-dropDown in-menu">
+                      <a href="#" class="drop-link fixall">Sign in </a>
+                      <a href="#" class="drop-link fixall">Sign up</a>
+                    </div>
+                  </li>
+                  <li><a href="#"> New Arrivals</a></li>
+                  <li><a href="#"> Sea salt</a></li>
+                  <li class="top-setting sm-slide slide">
+                    <span class="setting-anchor drop">
+                      Natural honey
+                      <span class="lnr lnr-chevron-down down"></span
+                    ></span>
+                    <div class="top-dropDown in-menu">
+                      <a href="#" class="drop-link fixall">Natural honey</a>
+                      <a href="#" class="drop-link fixall">Natural honey</a>
+                    </div>
+                  </li>
+                  <li><a href="#">Stevia sugar</a></li>
+                  <li><a href="#"> About Magnesia</a></li>
+                  <li><a href="#"> Contact us</a></li>
+                </ul>
+                <div class="call">
+                  <a href="#">
+                    <i class="fas fa-phone ico"></i>
+                    <span class="cal-txt">920033180</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="search-form" id="search-form">
+      <div class="close-search" id="close-search">
+        <span class="lnr lnr-cross"></span>
+      </div>
+      <div class="search">
+        <div class="search-content">
+          <form action="#">
+            <input type="text" placeholder="Search..." />
+            <button class="search-btn flex-center">
+              <span class="lnr lnr-magnifier"></span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <header>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <a href="#"
+              ><img src="./images/header/header.jpg" alt="slide1 banner"
+            /></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"
+              ><img src="./images/header/header.jpg" alt="slide1 banner"
+            /></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"
+              ><img src="./images/header/header.jpg" alt="slide1 banner"
+            /></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"
+              ><img src="./images/header/header.jpg" alt="slide1 banner"
+            /></a>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </header>
+
+    <section class="banner-container banner2">
+      <div class="c2">
+        <div class="banner-content flex-center">
+          <div class="banner" data-aos="fade-right">
+            <a href="#"><img src="./images/banners/1.jpg" alt=".." /></a>
+          </div>
+          <div class="banner" data-aos="fade-left">
+            <a href="#"><img src="./images/banners/2.jpg" alt=".." /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="product-slider">
+      <div class="c2">
+        <div class="product-head s-head" data-aos="fade-left">
+          <h3>- New Arrivals -</h3>
+        </div>
+        <div class="product-body" data-aos="zoom-in">
+          <div class="product-swiper-container s-container s-containe">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="product">
+                  <div class="product-img">
+                    <a href="#">
+                      <img src="./images/products/1.jpg" alt="product" />
+                    </a>
+                  </div>
+                  <div class="product-disc">
+                    <div class="stars">
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span class="blank"><i class="fas fa-star"></i></span>
+                    </div>
+                    <h5><a href="#">Magnesia salt 700g</a></h5>
+                    <div class="price flex-center">
+                      <div class="now"><span>8.00</span><span>SR</span></div>
+                      <div class="price-sale">
+                        <span>10</span> <span>SR</span>
+                      </div>
+                    </div>
+
+                    <div class="cart">
+                      <a href="#" class="flex-center">Add to cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product">
+                  <div class="product-img">
+                    <a href="#">
+                      <img src="./images/products/2.jpg" alt="product" />
+                    </a>
+                  </div>
+                  <div class="product-disc">
+                    <div class="stars">
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span class="blank"><i class="fas fa-star"></i></span>
+                    </div>
+                    <h5><a href="#">Magnesia salt 700g</a></h5>
+                    <div class="price flex-center">
+                      <div class="now"><span>8.00</span><span>SR</span></div>
+                      <div class="price-sale">
+                        <span>10</span> <span>SR</span>
+                      </div>
+                    </div>
+
+                    <div class="cart">
+                      <a href="#" class="flex-center">Add to cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product">
+                  <div class="product-img">
+                    <a href="#">
+                      <img src="./images/products/3.jpg" alt="product" />
+                    </a>
+                  </div>
+                  <div class="product-disc">
+                    <div class="stars">
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span class="blank"><i class="fas fa-star"></i></span>
+                    </div>
+                    <h5><a href="#">Magnesia salt 700g</a></h5>
+                    <div class="price flex-center">
+                      <div class="now"><span>8.00</span><span>SR</span></div>
+                      <div class="price-sale">
+                        <span>10</span> <span>SR</span>
+                      </div>
+                    </div>
+
+                    <div class="cart">
+                      <a href="#" class="flex-center">Add to cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product">
+                  <div class="product-img">
+                    <a href="#">
+                      <img src="./images/products/1.jpg" alt="product" />
+                    </a>
+                  </div>
+                  <div class="product-disc">
+                    <div class="stars">
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span class="blank"><i class="fas fa-star"></i></span>
+                    </div>
+                    <h5><a href="#">Magnesia salt 700g</a></h5>
+                    <div class="price flex-center">
+                      <div class="now"><span>8.00</span><span>SR</span></div>
+                      <div class="price-sale">
+                        <span>10</span> <span>SR</span>
+                      </div>
+                    </div>
+
+                    <div class="cart">
+                      <a href="#" class="flex-center">Add to cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="banner-container banner1">
+      <div class="c2">
+        <div class="banner-content">
+          <div class="banner" data-aos="flip-up">
+            <a href="#"><img src="./images/banners/3.jpg" alt="banner" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="product-slider">
+      <div class="c2">
+        <div class="product-head s-head" data-aos="fade-left">
+          <h3>Best Seller</h3>
+        </div>
+        <div class="product-body" data-aos="zoom-in">
+          <div class="product-swiper-container s-container s-containe">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="product">
+                  <div class="product-img">
+                    <a href="#">
+                      <img src="./images/products/1.jpg" alt="product" />
+                    </a>
+                  </div>
+                  <div class="product-disc">
+                    <div class="stars">
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span class="blank"><i class="fas fa-star"></i></span>
+                    </div>
+                    <h5><a href="#">Magnesia salt 700g</a></h5>
+                    <div class="price flex-center">
+                      <div class="now"><span>8.00</span><span>SR</span></div>
+                      <div class="price-sale">
+                        <span>10</span> <span>SR</span>
+                      </div>
+                    </div>
+
+                    <div class="cart">
+                      <a href="#" class="flex-center">Add to cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product">
+                  <div class="product-img">
+                    <a href="#">
+                      <img src="./images/products/2.jpg" alt="product" />
+                    </a>
+                  </div>
+                  <div class="product-disc">
+                    <div class="stars">
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span class="blank"><i class="fas fa-star"></i></span>
+                    </div>
+                    <h5><a href="#">Magnesia salt 700g</a></h5>
+                    <div class="price flex-center">
+                      <div class="now"><span>8.00</span><span>SR</span></div>
+                      <div class="price-sale">
+                        <span>10</span> <span>SR</span>
+                      </div>
+                    </div>
+
+                    <div class="cart">
+                      <a href="#" class="flex-center">Add to cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product">
+                  <div class="product-img">
+                    <a href="#">
+                      <img src="./images/products/3.jpg" alt="product" />
+                    </a>
+                  </div>
+                  <div class="product-disc">
+                    <div class="stars">
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span class="blank"><i class="fas fa-star"></i></span>
+                    </div>
+                    <h5><a href="#">Magnesia salt 700g</a></h5>
+                    <div class="price flex-center">
+                      <div class="now"><span>8.00</span><span>SR</span></div>
+                      <div class="price-sale">
+                        <span>10</span> <span>SR</span>
+                      </div>
+                    </div>
+
+                    <div class="cart">
+                      <a href="#" class="flex-center">Add to cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="product">
+                  <div class="product-img">
+                    <a href="#">
+                      <img src="./images/products/1.jpg" alt="product" />
+                    </a>
+                  </div>
+                  <div class="product-disc">
+                    <div class="stars">
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span class="blank"><i class="fas fa-star"></i></span>
+                    </div>
+                    <h5><a href="#">Magnesia salt 700g</a></h5>
+                    <div class="price flex-center">
+                      <div class="now"><span>8.00</span><span>SR</span></div>
+                      <div class="price-sale">
+                        <span>10</span> <span>SR</span>
+                      </div>
+                    </div>
+
+                    <div class="cart">
+                      <a href="#" class="flex-center">Add to cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="c2">
+        <div class="brands">
+          <div class="brands-head s-head" data-aos="fade-left">
+            <h3>- Where to find our products -</h3>
+          </div>
+          <div class="brands-content" data-aos="zoom-in">
+            <div class="brands-swiper-container">
+              <div class="swiper-wrapper">
+                <div class="brand swiper-slide">
+                  <div class="brand-body">
+                    <a href="#"><img src="./images/brands/1.png" alt=".." /></a>
+                  </div>
+                </div>
+                <div class="brand swiper-slide">
+                  <div class="brand-body">
+                    <a href="#"><img src="./images/brands/2.png" alt=".." /></a>
+                  </div>
+                </div>
+                <div class="brand swiper-slide">
+                  <div class="brand-body">
+                    <a href="#"><img src="./images/brands/3.png" alt=".." /></a>
+                  </div>
+                </div>
+                <div class="brand swiper-slide">
+                  <div class="brand-body">
+                    <a href="#"><img src="./images/brands/4.png" alt=".." /></a>
+                  </div>
+                </div>
+                <div class="brand swiper-slide">
+                  <div class="brand-body">
+                    <a href="#"><img src="./images/brands/5.png" alt=".." /></a>
+                  </div>
+                </div>
+                <div class="brand swiper-slide">
+                  <div class="brand-body">
+                    <a href="#"><img src="./images/brands/6.png" alt=".." /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-top">
+          <div class="footer-logo">
+            <a href="#"><img src="./images/logo.png" alt=".." /></a>
+          </div>
+          <ul class="footer-list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Shippinf & Delivery</a></li>
+            <li><a href="#">Privacy </a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Returns</a></li>
+            <li><a href="#">Contact us</a></li>
+          </ul>
+          <div class="credit">
+            <p>
+              <span>
+                All rights reserved, Magnesia &copy; 2020
+                          </span>
+            <span class="dash">-</span>
+              <span>
+                Design & Developed by -
+                <a href="https://tasawk.com.sa/" target="_blank"
+                  ><img src="./images/icons/footer-en.png" alt=".."
+                /></a>
+              </span>
+            </p>
+            <div class="social flex-center">
+              <div class="social-icon wats">
+                <a class="flex-center" href="#">
+                  <i class="fab fa-whatsapp"></i
+                ></a>
+              </div>
+              <div class="social-icon snap">
+                <a class="flex-center" href="#">
+                  <i class="fab fa-snapchat-ghost"></i
+                ></a>
+              </div>
+              <div class="social-icon insta">
+                <a class="flex-center" href="#">
+                  <i class="fab fa-instagram"></i
+                ></a>
+              </div>
+              <div class="social-icon twitter">
+                <a class="flex-center" href="#">
+                  <i class="fab fa-twitter"></i
+                ></a>
+              </div>
+              <div class="social-icon facebook">
+                <a class="flex-center" href="#">
+                  <i class="fab fa-facebook-f"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="pay"><img src="./images/icons/pay.png" alt=".." /></div>
+        </div>
+      </div>
+    </footer>
+    
+    <div
+      id="up"
+      class="up flex-center"
+      onclick="window.scroll({top: 0,behavior: 'smooth'});"
+    >
+      <span class="lnr lnr-chevron-up"></span>
+    </div>
+
+    <script src="./js/vendor/jquery.min.js"></script>
+    <script src="./js/vendor/bootstrap.min.js"></script>
+    <script src="./js/vendor/swiper-bundle.js"></script>
+    <script src="./js/vendor/aos.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
