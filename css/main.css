@@ -656,6 +656,7 @@ nav .nav-bottom .nav-logo {
 
 nav .nav-bottom .nav-logo img {
   max-width: 100%;
+  width: 200px;
 }
 
 nav .nav-bottom .search .search-content {
@@ -1391,7 +1392,13 @@ footer .brands .brands-content .brand {
 }
 
 footer .brands .brands-content .brand .brand-body img {
-  max-width: 100%;
+  max-width: 90%;
+}
+
+@media (max-width: 992px) {
+  footer .brands .brands-content .brand .brand-body img {
+    max-width: 75%;
+  }
 }
 
 footer .footer-top {
@@ -1414,6 +1421,7 @@ footer .footer-top .footer-logo {
 
 footer .footer-top .footer-logo img {
   max-width: 90%;
+  width: 200px;
 }
 
 footer .footer-top .footer-list {
