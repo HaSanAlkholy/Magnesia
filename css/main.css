@@ -753,14 +753,13 @@ nav .nav-bottom .nav-icons .nav-icon:last-of-type {
   }
 }
 
+nav .nav-bottom .nav-icons .nav-lang .ico-btn {
+  padding: 0;
+}
+
 nav .nav-bottom .nav-icons .nava-btn,
 nav .nav-bottom .nav-icons .search-btn {
   display: none;
-}
-
-nav .nav-bottom .nav-icons .cart-btn {
-  position: relative;
-  transition: all 0.5s;
 }
 
 @media (max-width: 1200px) {

@@ -565,14 +565,15 @@ nav {
                 }
             }
 
+            .nav-lang{
+                .ico-btn{
+                    padding: 0;
+                }
+            }
+
             .nava-btn,
             .search-btn {
                 display: none;
-            }
-
-            .cart-btn {
-                position: relative;
-                transition: all 0.5s;
             }
 
             @media (max-width: 1200px) {
