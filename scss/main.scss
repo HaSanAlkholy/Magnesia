@@ -130,14 +130,14 @@
         left: -60px;
     }
 
-    @media(max-width:1150px){
+    @media (max-width: 1150px) {
         .swiper-button-prev {
             right: -15px;
         }
 
         .swiper-button-next {
             left: -15px;
-        }              
+        }
     }
 
     .swiper-pagination {
@@ -465,7 +465,7 @@ nav {
 
             img {
                 max-width: 100%;
-                width:200px;
+                width: 200px;
             }
         }
 
@@ -519,55 +519,44 @@ nav {
 
         .nav-icons {
             .nav-icon {
-                margin-inline-start: 14px;
+                margin-inline-start: 17px;
 
                 .ico-btn {
-                    color: $color1;
-                    font-size: 18px;
-                    text-align: center;
+                    color: #2a4877;
+                    font-size: 22px;
                     cursor: pointer;
                     transition: all 0.5s;
                     display: flex;
-                    flex-direction: column;
-                    justify-content: center;
+                    justify-content: flex-start;
                     align-items: center;
                     position: relative;
-                    background-color: #f5f5f5;
-                    width: 40px;
-                    height: 40px;
-                    padding-top: 5px;
 
                     .down {
                         font-size: 7px;
-                        margin-top: 5px;
+                        margin-inline-start: 5px;
+                        margin-top:4px;
+                    }
+
+                    img{
+                        margin-inline-end:5px;
                     }
                 }
 
                 &:hover {
                     .ico-btn {
-                        color: white;
-                        background-color: $color2;
+                        color: $color2;
                     }
                 }
 
                 &:last-of-type {
                     margin-inline-end: 0;
                 }
-
-                @media (max-width: 576px) {
-                    margin-inline-start: 7px;
-
-                    .ico-btn {
-                        width: 35px;
-                        height: 35px;
-                        font-size: 16px;
-                    }
-                }
             }
 
-            .nav-lang{
-                .ico-btn{
-                    padding: 0;
+            .nav-lang,
+            .nav-currency {
+                .ico-btn {
+                    font-size: 18px;
                 }
             }
 
@@ -799,28 +788,6 @@ nav {
                         .top-dropDown {
                             right: 0;
                             left: unset;
-                        }
-                    }
-
-                    .nava-lang {
-                        .setting-anchor {
-                            .ico-btn {
-                                display: flex;
-                                justify-content: center;
-                                align-items: center;
-                                img {
-                                    margin-inline-end: 5px;
-                                }
-                                .down {
-                                    font-size: 11px;
-                                    margin-inline-start: 6px;
-                                }
-                            }
-                        }
-
-                        .top-dropDown {
-                            left: unset;
-                            right: 0;
                         }
                     }
 
@@ -1149,15 +1116,15 @@ footer {
             .swiper-button-next {
                 left: -60px;
             }
-            
-            @media(max-width:1150px){
+
+            @media (max-width: 1150px) {
                 .swiper-button-prev {
                     right: -15px;
                 }
-    
+
                 .swiper-button-next {
                     left: -15px;
-                }              
+                }
             }
 
             .swiper-pagination {
@@ -1203,8 +1170,8 @@ footer {
                 .brand-body {
                     img {
                         max-width: 90%;
-                        
-                        @media(max-width:992px){
+
+                        @media (max-width: 992px) {
                             max-width: 75%;
                         }
                     }
@@ -1355,18 +1322,17 @@ html[dir="ltr"] {
             left: unset;
             right: -60px;
         }
-        
-        @media(max-width:1150px){
+
+        @media (max-width: 1150px) {
             .swiper-button-prev {
                 right: unset;
                 left: -15px;
             }
-    
+
             .swiper-button-next {
                 left: unset;
                 right: -15px;
             }
-
         }
     }
 
@@ -1389,8 +1355,8 @@ html[dir="ltr"] {
                     .nava-head {
                         .top-setting {
                             .top-dropDown {
-                                left:0;
-                                right:unset;
+                                left: 0;
+                                right: unset;
                             }
                         }
 

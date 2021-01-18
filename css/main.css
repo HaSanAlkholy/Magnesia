@@ -708,53 +708,41 @@ nav .nav-bottom .search .search-content .search-btn:hover {
 }
 
 nav .nav-bottom .nav-icons .nav-icon {
-  margin-inline-start: 14px;
+  margin-inline-start: 17px;
 }
 
 nav .nav-bottom .nav-icons .nav-icon .ico-btn {
-  color: #2A4877;
-  font-size: 18px;
-  text-align: center;
+  color: #2a4877;
+  font-size: 22px;
   cursor: pointer;
   transition: all 0.5s;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   position: relative;
-  background-color: #f5f5f5;
-  width: 40px;
-  height: 40px;
-  padding-top: 5px;
 }
 
 nav .nav-bottom .nav-icons .nav-icon .ico-btn .down {
   font-size: 7px;
-  margin-top: 5px;
+  margin-inline-start: 5px;
+  margin-top: 4px;
+}
+
+nav .nav-bottom .nav-icons .nav-icon .ico-btn img {
+  margin-inline-end: 5px;
 }
 
 nav .nav-bottom .nav-icons .nav-icon:hover .ico-btn {
-  color: white;
-  background-color: #5281B4;
+  color: #5281B4;
 }
 
 nav .nav-bottom .nav-icons .nav-icon:last-of-type {
   margin-inline-end: 0;
 }
 
-@media (max-width: 576px) {
-  nav .nav-bottom .nav-icons .nav-icon {
-    margin-inline-start: 7px;
-  }
-  nav .nav-bottom .nav-icons .nav-icon .ico-btn {
-    width: 35px;
-    height: 35px;
-    font-size: 16px;
-  }
-}
-
-nav .nav-bottom .nav-icons .nav-lang .ico-btn {
-  padding: 0;
+nav .nav-bottom .nav-icons .nav-lang .ico-btn,
+nav .nav-bottom .nav-icons .nav-currency .ico-btn {
+  font-size: 18px;
 }
 
 nav .nav-bottom .nav-icons .nava-btn,
@@ -981,22 +969,6 @@ nav .nava .nava-content .nava-head {
   nav .nava .nava-content .nava-head .top-setting .top-dropDown {
     right: 0;
     left: unset;
-  }
-  nav .nava .nava-content .nava-head .nava-lang .setting-anchor .ico-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  nav .nava .nava-content .nava-head .nava-lang .setting-anchor .ico-btn img {
-    margin-inline-end: 5px;
-  }
-  nav .nava .nava-content .nava-head .nava-lang .setting-anchor .ico-btn .down {
-    font-size: 11px;
-    margin-inline-start: 6px;
-  }
-  nav .nava .nava-content .nava-head .nava-lang .top-dropDown {
-    left: unset;
-    right: 0;
   }
   nav .nava .nava-content .nava-head .nava-close {
     position: absolute;
